@@ -14,11 +14,11 @@ from resources.lib.comaddon import progress, VSlog  # import du dialog progress
 
 # Si vous créez une source et la deposez dans le dossier "sites" elle sera directement visible sous KODI
 
-SITE_IDENTIFIER = 'ajouter_une_source'  # identifant (nom de votre fichier) remplacez les espaces et les . par _ AUCUN CARACTERE SPECIAL
-SITE_NAME = 'ajouter_une_source'  # nom que KODI affiche
+SITE_IDENTIFIER = 'https://www.darkiworld.com/'  # identifant (nom de votre fichier) remplacez les espaces et les . par _ AUCUN CARACTERE SPECIAL
+SITE_NAME = 'https://www.darkiworld.com/'  # nom que KODI affiche
 SITE_DESC = 'films en streaming, streaming hd, streaming 720p, Films/séries, récent' # description courte de votre source
 
-URL_MAIN = 'http://le_site.org/'  # url de la source
+URL_MAIN = 'https://www.darkiworld.com/'  # url de la source
 
 # definit les url pour les catégories principale, ceci est automatique, si la definition est présente elle sera affichee.
 # LA RECHERCHE GLOBAL N'UTILISE PAS showSearch MAIS DIRECTEMENT LA FONCTION INSCRITE DANS LA VARIABLE URL_SEARCH_*
